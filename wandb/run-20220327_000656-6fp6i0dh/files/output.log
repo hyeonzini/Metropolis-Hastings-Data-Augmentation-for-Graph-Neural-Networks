@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "main.py", line 91, in <module>
+    main()
+  File "main.py", line 84, in main
+    best_epoch, tr_acc, tr_f1, best_te_acc, best_val_acc, best_te_f1, best_val_f1, accep, delta_G_e,delta_G_v, delta_g_e, delta_g_v  = episode(args, i)
+NameError: name 'i' is not defined

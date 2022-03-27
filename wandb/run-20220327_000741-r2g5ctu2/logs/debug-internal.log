@@ -1,0 +1,60 @@
+2022-03-27 00:07:42,177 INFO    MainThread:9942 [internal.py:wandb_internal():88] W&B internal server running at pid: 9942, started at: 2022-03-27 00:07:42.177074
+2022-03-27 00:07:42,182 DEBUG   SenderThread:9942 [sender.py:send():161] send: header
+2022-03-27 00:07:42,182 INFO    WriterThread:9942 [datastore.py:open_for_write():77] open: /home/hyunjin/NeurIPS2021/wandb/run-20220327_000741-r2g5ctu2/run-r2g5ctu2.wandb
+2022-03-27 00:07:42,183 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: check_version
+2022-03-27 00:07:42,184 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:07:42,184 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: check_version
+2022-03-27 00:07:42,265 DEBUG   SenderThread:9942 [sender.py:send():161] send: run
+2022-03-27 00:07:42,270 DEBUG   SenderThread:9942 [git.py:repo():33] git repository is invalid
+2022-03-27 00:07:42,513 INFO    SenderThread:9942 [sender.py:_start_run_threads():635] run started: r2g5ctu2 with start time 1648307261
+2022-03-27 00:07:42,514 DEBUG   SenderThread:9942 [sender.py:send():161] send: summary
+2022-03-27 00:07:42,514 INFO    SenderThread:9942 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2022-03-27 00:07:42,515 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: run_start
+2022-03-27 00:07:42,560 DEBUG   HandlerThread:9942 [meta.py:__init__():34] meta init
+2022-03-27 00:07:42,560 DEBUG   HandlerThread:9942 [meta.py:__init__():48] meta init done
+2022-03-27 00:07:42,560 DEBUG   HandlerThread:9942 [meta.py:probe():190] probe
+2022-03-27 00:07:42,580 DEBUG   HandlerThread:9942 [git.py:repo():33] git repository is invalid
+2022-03-27 00:07:42,580 DEBUG   HandlerThread:9942 [meta.py:_save_pip():52] save pip
+2022-03-27 00:07:42,581 DEBUG   HandlerThread:9942 [meta.py:_save_pip():66] save pip done
+2022-03-27 00:07:42,581 DEBUG   HandlerThread:9942 [meta.py:probe():231] probe done
+2022-03-27 00:07:42,640 DEBUG   SenderThread:9942 [sender.py:send():161] send: files
+2022-03-27 00:07:42,640 INFO    SenderThread:9942 [sender.py:_save_file():769] saving file wandb-metadata.json with policy now
+2022-03-27 00:07:42,649 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: status
+2022-03-27 00:07:42,649 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:07:42,652 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: status
+2022-03-27 00:07:42,885 DEBUG   SenderThread:9942 [sender.py:send():161] send: config
+2022-03-27 00:07:57,894 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: status
+2022-03-27 00:07:57,895 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:07:57,895 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: status
+2022-03-27 00:08:13,117 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: status
+2022-03-27 00:08:13,117 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:08:13,118 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: status
+2022-03-27 00:08:14,713 DEBUG   SenderThread:9942 [sender.py:send():161] send: stats
+2022-03-27 00:08:28,331 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: status
+2022-03-27 00:08:28,332 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:08:28,332 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: status
+2022-03-27 00:08:33,304 WARNING MainThread:9942 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-03-27 00:08:33,319 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: poll_exit
+2022-03-27 00:08:33,319 DEBUG   SenderThread:9942 [sender.py:send():161] send: telemetry
+2022-03-27 00:08:33,580 DEBUG   SenderThread:9942 [sender.py:send():161] send: exit
+2022-03-27 00:08:33,581 INFO    SenderThread:9942 [sender.py:send_exit():239] handling exit code: 255
+2022-03-27 00:08:33,581 INFO    SenderThread:9942 [sender.py:send_exit():247] send defer
+2022-03-27 00:08:33,581 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:08:33,582 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: poll_exit
+2022-03-27 00:08:33,583 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: defer
+2022-03-27 00:08:33,583 INFO    HandlerThread:9942 [handler.py:handle_request_defer():115] handle defer: 0
+2022-03-27 00:08:33,584 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:08:33,584 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: defer
+2022-03-27 00:08:33,584 INFO    SenderThread:9942 [sender.py:send_request_defer():256] handle sender defer: 0
+2022-03-27 00:08:33,584 INFO    SenderThread:9942 [sender.py:send_request_defer():292] send defer: 1
+2022-03-27 00:08:33,585 DEBUG   HandlerThread:9942 [handler.py:handle_request():101] handle_request: defer
+2022-03-27 00:08:33,585 INFO    HandlerThread:9942 [handler.py:handle_request_defer():115] handle defer: 1
+2022-03-27 00:08:33,803 WARNING MainThread:9942 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2022-03-27 00:08:33,803 ERROR   MainThread:9942 [internal.py:wandb_internal():149] Internal process interrupted.
+2022-03-27 00:08:33,850 INFO    HandlerThread:9942 [handler.py:finish():535] shutting down handler
+2022-03-27 00:08:33,851 DEBUG   SenderThread:9942 [sender.py:send():161] send: request
+2022-03-27 00:08:33,851 DEBUG   SenderThread:9942 [sender.py:send_request():170] send_request: defer
+2022-03-27 00:08:33,852 INFO    SenderThread:9942 [sender.py:send_request_defer():256] handle sender defer: 1
+2022-03-27 00:08:33,852 INFO    SenderThread:9942 [sender.py:send_request_defer():292] send defer: 2
+2022-03-27 00:08:33,852 INFO    SenderThread:9942 [sender.py:finish():872] shutting down sender
+2022-03-27 00:08:33,974 INFO    MainThread:9942 [internal.py:handle_exit():78] Internal process exited

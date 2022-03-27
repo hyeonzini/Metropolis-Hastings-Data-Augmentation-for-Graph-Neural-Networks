@@ -1,0 +1,125 @@
+epochs : 0
+dropratio_e: 0.17051913603637736 dropratio_v: 0.3412112259970458
+0.25978589057922363 0.3444625735282898 0.7141596078872681
+tensor(-79.4230, device='cuda:0') -77.35749053955078
+1.7020468638740616 1.6460423672698177
+tensor(2.1215, device='cuda:0')
+############################################
+epochs: 101 cnt: 50
+#train: 0.9571 val: 0.8140 test: 0.8310 best_test: 0.8250 best_val: 0.8220
+#train: 0.9572 val: 0.8033 test: 0.8165 best_test: 0.8113 best_val: 0.8190
+epochs : 250
+dropratio_e: 0.10392194012883671 dropratio_v: 0.6606351550960119
+0.1636754721403122 0.6647835373878479 0.4539633095264435
+tensor(-50.5723, device='cuda:0') -50.49043273925781
+3.0753923192235675 3.072425163677961
+tensor(0.0848, device='cuda:0')
+############################################
+epochs: 325 cnt: 100
+#train: 0.9714 val: 0.8000 test: 0.8310 best_test: 0.8250 best_val: 0.8220
+#train: 0.9713 val: 0.7848 test: 0.8182 best_test: 0.8113 best_val: 0.8190
+epochs : 500
+epochs : 750
+epochs : 1000
+dropratio_e: 0.17070860174308455 dropratio_v: 0.69903988183161
+0.26143500208854675 0.6968404054641724 0.4408501088619232
+tensor(-42.2471, device='cuda:0') -43.0738410949707
+1.9978840521637173 2.017764079423502
+tensor(-0.8466, device='cuda:0')
+############################################
+epochs: 1046 cnt: 150
+#train: 0.9857 val: 0.8080 test: 0.8390 best_test: 0.8440 best_val: 0.8240
+#train: 0.9857 val: 0.7993 test: 0.8290 best_test: 0.8113 best_val: 0.8190
+epochs : 1250
+epochs : 1500
+epochs : 1750
+dropratio_e: 0.1943918150814703 dropratio_v: 0.6691285081240768
+0.2949976921081543 0.6658036708831787 0.4085792303085327
+tensor(-50.1630, device='cuda:0') -52.89332580566406
+2.7774044082689366 2.74728734453409
+tensor(-2.7002, device='cuda:0')
+############################################
+epochs: 1822 cnt: 200
+#train: 0.9929 val: 0.8120 test: 0.8460 best_test: 0.8440 best_val: 0.8240
+#train: 0.9929 val: 0.8037 test: 0.8340 best_test: 0.8113 best_val: 0.8190
+epochs : 2000
+epochs : 2250
+dropratio_e: 0.1481621826449413 dropratio_v: 0.6672821270310192
+0.23190081119537354 0.6676715612411499 0.3799420893192291
+tensor(-58.6274, device='cuda:0') -57.23554611206055
+2.8050329050009486 2.7845950219901403
+tensor(1.4122, device='cuda:0')
+############################################
+epochs: 2450 cnt: 250
+#train: 0.9714 val: 0.8180 test: 0.8470 best_test: 0.8440 best_val: 0.8240
+#train: 0.9717 val: 0.8075 test: 0.8315 best_test: 0.8113 best_val: 0.8190
+epochs : 2500
+epochs : 2750
+dropratio_e: 0.19789693065555136 dropratio_v: 0.723781388478582
+0.29614585638046265 0.7183166742324829 0.3722829520702362
+tensor(-56.6038, device='cuda:0') -56.62136459350586
+2.9466955141205915 2.9479919525002054
+tensor(-0.0188, device='cuda:0')
+############################################
+epochs: 2930 cnt: 300
+#train: 0.9786 val: 0.8180 test: 0.8490 best_test: 0.8440 best_val: 0.8240
+#train: 0.9785 val: 0.8104 test: 0.8344 best_test: 0.8113 best_val: 0.8190
+epochs : 3000
+epochs : 3250
+epochs : 3500
+dropratio_e: 0.1564039408866995 dropratio_v: 0.7374446085672083
+0.23494850099086761 0.7382684946060181 0.37482479214668274
+tensor(-54.6868, device='cuda:0') -54.96669387817383
+3.116642908872934 3.119727155423462
+tensor(-0.2830, device='cuda:0')
+############################################
+epochs: 3670 cnt: 350
+#train: 0.9786 val: 0.8300 test: 0.8490 best_test: 0.8520 best_val: 0.8320
+#train: 0.9785 val: 0.8192 test: 0.8333 best_test: 0.8349 best_val: 0.8279
+epochs : 3750
+epochs : 4000
+epochs : 4250
+dropratio_e: 0.2078438802576733 dropratio_v: 0.7186115214180206
+0.31819453835487366 0.7234536409378052 0.371493935585022
+tensor(-54.9231, device='cuda:0') -55.175933837890625
+2.6633967775376246 2.695261576849141
+tensor(-0.2847, device='cuda:0')
+############################################
+epochs: 4429 cnt: 400
+#train: 0.9643 val: 0.8160 test: 0.8440 best_test: 0.8520 best_val: 0.8320
+#train: 0.9643 val: 0.8076 test: 0.8328 best_test: 0.8349 best_val: 0.8279
+epochs : 4500
+epochs : 4750
+epochs : 5000
+dropratio_e: 0.1566881394467602 dropratio_v: 0.7234121122599705
+0.24407292902469635 0.7237079739570618 0.3586690425872803
+tensor(-60.5855, device='cuda:0') -57.043846130371094
+2.9263192672425635 2.901768808747595
+tensor(3.5662, device='cuda:0')
+############################################
+epochs: 5205 cnt: 450
+#train: 0.9857 val: 0.8200 test: 0.8500 best_test: 0.8520 best_val: 0.8320
+#train: 0.9859 val: 0.8064 test: 0.8393 best_test: 0.8349 best_val: 0.8279
+epochs : 5250
+Traceback (most recent call last):
+  File "main.py", line 91, in <module>
+    main()
+  File "main.py", line 84, in main
+    best_epoch, tr_acc, tr_f1, best_te_acc, best_val_acc, best_te_f1, best_val_f1, accep, delta_G_e,delta_G_v, delta_g_e, delta_g_v  = episode(args)
+  File "/home/hyunjin/NeurIPS2021/epi.py", line 278, in episode
+    aug_feature, aug_edge_index, aug_node_list, train_f1, train_acc, cnt, delta_G_e, delta_G_v, delta_g_e, delta_g_v, accep = train(args, features, edge_index, aug_feature, aug_edge_index, aug_node_list, train_index, train_label, num_classes, model, opt_model, agg_model, epoch, cnt)
+  File "/home/hyunjin/NeurIPS2021/epi.py", line 136, in train
+    output = model(feature, edge_index)
+  File "/home/hyunjin/.conda/envs/graph_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/hyunjin/NeurIPS2021/model.py", line 97, in forward
+    x = conv(x, edge_index)
+  File "/home/hyunjin/.conda/envs/graph_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/hyunjin/.conda/envs/graph_env/lib/python3.8/site-packages/torch_geometric/nn/conv/gcn_conv.py", line 159, in forward
+    edge_index, edge_weight = gcn_norm(  # yapf: disable
+  File "/home/hyunjin/.conda/envs/graph_env/lib/python3.8/site-packages/torch_geometric/nn/conv/gcn_conv.py", line 64, in gcn_norm
+    deg_inv_sqrt.masked_fill_(deg_inv_sqrt == float('inf'), 0)
+  File "/home/hyunjin/.conda/envs/graph_env/lib/python3.8/site-packages/torch/tensor.py", line 28, in wrapped
+    return f(*args, **kwargs)
+KeyboardInterrupt
