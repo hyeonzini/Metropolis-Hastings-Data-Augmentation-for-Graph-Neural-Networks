@@ -3,8 +3,7 @@ This repository is the implementation of [MH-Aug](https://proceedings.neurips.cc
 
 > Hyeonjin Park<sup>* </sup>, Seunghun Lee<sup>* </sup>, Sihyeon Kim, Jinyoung Park, Jisu Jeong, Kyung-min Kim, Jung-Woo Ha, Hyunwoo J. Kim, In Advanced in Neural Information Processing Systems (NeurIPS 2021).
 
-![](https://drive.google.com/file/d/1YvzszIAtlJFxtNGVqFeFjFxOGH0M6yNK/view?usp=sharing)
-
+![](https://github.com/hyeonzini/Metropolis-Hastings-Data-Augmentation-for-Graph-Neural-Networks/blob/main/Figures/main_figure.png)
 ### Required packages
 A list of dependencies will need to be installed in order to run the code. We provide the dependency yaml file (env.yml)
 ```
